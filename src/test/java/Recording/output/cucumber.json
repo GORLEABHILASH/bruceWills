@@ -1,0 +1,119 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-09-25T09:03:47.184Z",
+        "before": [
+          {
+            "result": {
+              "duration": 43416182700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.beforeTest()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "",
+        "description": "",
+        "id": "check-login;;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7277434800,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "open the url",
+            "match": {
+              "location": "stepdefinition.open_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7729499200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "click sign in",
+            "match": {
+              "location": "stepdefinition.click_sign_in()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1620279800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Enter lalitha",
+            "match": {
+              "arguments": [
+                {
+                  "val": "lalitha",
+                  "offset": 6
+                }
+              ],
+              "location": "stepdefinition.Enter_username(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 254388600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter2 password123",
+            "match": {
+              "arguments": [
+                {
+                  "val": "password123",
+                  "offset": 7
+                }
+              ],
+              "location": "stepdefinition.Enter_password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 734527000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "press login",
+            "match": {
+              "location": "stepdefinition.press_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2001672400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "press SignOut",
+            "match": {
+              "location": "stepdefinition.press_signout()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "check login",
+    "description": "",
+    "id": "check-login",
+    "keyword": "Feature",
+    "uri": "classpath:brucewills/vindiesel/vin.feature",
+    "tags": []
+  }
+]

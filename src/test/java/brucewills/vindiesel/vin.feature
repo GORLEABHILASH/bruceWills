@@ -9,4 +9,3 @@ Then press SignOut
 Examples:
 |username|password|
 |lalitha|password123|
-|abhilash|Abhi9876|
